@@ -1,0 +1,17 @@
+.form-registro {
+    font-size: 18px;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .botao {
+        display: block;
+        margin: 0.6em;
+    }
+    .botao1 {
+        margin: 0.5em;
+    }
+    .form-registro {
+        justify-content: center;
+    }
+}

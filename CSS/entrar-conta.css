@@ -1,0 +1,24 @@
+.botao1 {
+    background-color: var(--cinza);
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid var(--preto);
+    border-radius: 15px;
+    padding: 0.2em;
+    justify-content: center;
+    width: 5em;
+}
+
+@media screen and (min-width: 840px) {
+    .botao1 {
+        font-size: 40px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .botao1 {
+        font-size: 50px;
+        border-radius: 30px;
+    }
+}

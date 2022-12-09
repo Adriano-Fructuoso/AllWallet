@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Informações para o navegador-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>AllWallet - Registre-se</title>
+
+        <!--Links-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <section class="pagina-inicial">
+            <div  class="pagina-inicial-1">
+                <h3 class="texto__pagina-inicial">Você ainda não possui conta?<br>
+                Vamos resolver agora mesmo! Preencha os seguintes dados para que possamos unir todos os seus investimentos em uma carteira unificada.</h3>
+            </div>
+        </section>
+
+        <section class="pagina-inicial-2">
+           <form action="registrar" class="form-registro">
+                <input type="text" id="nome" class="botao" placeholder="Nome Completo" required>
+                <input type="email" id="email" class="botao" placeholder="E-mail" required>
+                <input type="password" id="senha" class="botao" placeholder="Senha" required>
+                <input type="password" id="confirmar" class="botao" placeholder="Confirmar senha" required>
+                <input type="number" id="cpf" class="botao" placeholder="CPF" required>
+                <input type="button" class="dados__pagina-inicial" id="continuar" required>
+                <label for="continuar" class="rotulo-dados__pagina-inicial"></label>
+                <a href="fotos.html" class="botao1">Continuar</a>
+           </form>
+        </section>
+
+        <hr>
+
+        <footer>
+            <h2 class="rodape">AllWallet</h2>
+        </footer>
+    </body>
+</html>
